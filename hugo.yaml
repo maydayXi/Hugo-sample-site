@@ -14,3 +14,13 @@ DefaultContentLanguage: zh-tw
 #     languageCode: zh-tw
 #     languageName: 中文
 #     title: "示範網站"
+
+# Site-Wide 設定
+# 參考 https://stack.jimmycai.com/config/site
+params:
+  # 日期格式設定
+  dateFormat:
+    # po 文日期格式設定
+    published: 2006-01-02
+    # 最後更新時間格式設定
+    lastUpdated: 2006-01-02T15:04+0800
