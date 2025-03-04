@@ -15,12 +15,20 @@ DefaultContentLanguage: zh-tw
 #     languageName: 中文
 #     title: "示範網站"
 
-# Site-Wide 設定
-# 參考 https://stack.jimmycai.com/config/site
 params:
   # 日期格式設定
+  # 參考 https://stack.jimmycai.com/config/date-format
   dateFormat:
     # po 文日期格式設定
     published: 2006-01-02
     # 最後更新時間格式設定
     lastUpdated: 2006-01-02T15:04+0800
+  # 左邊選單設定
+  # 參考 https://stack.jimmycai.com/config/sidebar
+  sidebar:
+    # 設定網頁副標題
+    subtitle: 這是一個教學範例網站
+    # 設定網站頭像
+    avatar:
+      src: https://cdn3d.iconscout.com/3d/premium/thumb/boy-avatar-3d-icon-download-in-png-blend-fbx-gltf-file-formats--boys-male-man-pack-avatars-icons-5187865.png?f=webp
+      local: false
