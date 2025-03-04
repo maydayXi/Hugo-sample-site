@@ -1,0 +1,16 @@
+baseURL: https://example.org/
+title: HugoSampleSite
+theme: hugo-theme-stack
+# 網站語系設定
+# 參考 https://stack.jimmycai.com/config/i18n
+DefaultContentLanguage: zh-tw
+# 參考 https://gohugo.io/content-management/multilingual/#configure-languages
+# 因為 Hugo 預設的系統語言是英文，所以需要將預設的語言改成中文
+# defaultContentLanguage: zh-tw
+# languages:
+#   zh-tw:
+#     disabled: false
+#     weight: 1
+#     languageCode: zh-tw
+#     languageName: 中文
+#     title: "示範網站"
