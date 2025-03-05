@@ -40,3 +40,29 @@ params:
     license:
       # 顯示授權條款文字
       enabled: true
+  # 小元件設定
+  # 參考 https://stack.jimmycai.com/config/widgets
+  widgets:
+    # 頁面設定（非首頁）
+    page:
+      # 顯示頁面的目錄
+      - type: toc
+    # 首頁設定
+    homepage:
+      # 搜尋元件
+      - type: search
+      # 歷史文庫
+      - type: archives
+        params:
+          # 顯示近 3 年的文章
+          limit: 3
+      # 分類元件設定
+      - type: categories
+        params:
+          # 最多顯示 5 個分類
+          limit: 5
+      # 標籤元件設定
+      - type: tag-cloud
+        params:
+          # 最多顯示 20 個標籤
+          limit: 20
