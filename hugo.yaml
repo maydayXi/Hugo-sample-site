@@ -32,3 +32,11 @@ params:
     avatar:
       src: https://cdn3d.iconscout.com/3d/premium/thumb/boy-avatar-3d-icon-download-in-png-blend-fbx-gltf-file-formats--boys-male-man-pack-avatars-icons-5187865.png?f=webp
       local: false
+  # PO 文相關設定
+  # 參考 https://stack.jimmycai.com/config/article
+  article:
+    # 文章目錄：開啟
+    toc: true
+    license:
+      # 顯示授權條款文字
+      enabled: true
