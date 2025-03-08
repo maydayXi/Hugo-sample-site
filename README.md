@@ -1,3 +1,5 @@
+**[中文](README.zh-TW.md)**
+
 # Hugo-sample-site
 
 This is a sample website built with **[Hugo](https://gohugo.io/)**, designed as a tutorial project to demonstrate how to quickly set up a static site using Hugo.
